@@ -1,27 +1,27 @@
 # 1. Accept user's first/last name and reverse
 # User input
-firstname = input("Enter your first name:")
-lastname = input("Enter your last name:")
+firstname = input("Enter your first name: ")
+lastname = input("Enter your last name: ")
 # Slice string, starting at the end of the string and moving backwards
 print(lastname[::-1], " ", firstname[::-1])
 # Katherine Moore returns erooM enirehtaK
 
 # 2. Accept input integer n and add n + nn + nnn
-n = input("Enter a number:")
+n = input("Enter a number: ")
 # Runs the loop if the user input was not a digit
 while not(n.isdigit()):
     print("You did not enter a number.")
-    n = input("Enter a number:")
+    n = input("Enter a number: ")
 # Converts user input strings to integers
 n1 = int(n)
 n2 = int(n + n)
 n3 = int(n + n + n)
 answer = n1 + n2 + n3
+print(answer)
 # input of 8 returns 984
 
 # 3. Take user input of country and print statement
-country = input("What country are you from?")
-country = country.strip().lower().capitalize()
+country = input("What country are you from? ")
 print("I've heard that ", country, " is a beautiful country!")
 
 # 4. What is the output?
@@ -29,15 +29,15 @@ x = 10
 y = 50
 if (x ** 2 > 100 and y < 100): 
     print(x, y)
-# x**2 = 100 so if statement returns false and no output printed
+# x**2 = 100 so if statement executes to false and no output is printed
 
 # 5. What is the output?
 a = [10, 20]
 b = a
 b += [30, 40]   # Same as b = b + [30, 40]
-print(a)    # prints [10, 20]
+print(a)    # prints [10, 20, 30, 40]
 print(b)    # prints [10, 20, 30, 40]
-# Prior to the addition assignment operator, b = [10, 20]. Addition with lists will combine them
+# Variables in Python are pointers, so because b=a, if one of those variables change, they both do
 
 # 6. What is the output?
 print(2%6)
