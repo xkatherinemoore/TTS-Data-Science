@@ -13,6 +13,6 @@
     <li><a href="https://github.com/xkatherinemoore/TTS-Data-Science/blob/main/data-structures.ipynb">data-structures.ipynb</a>: Work with and manipulate data structures with focus on iteration</li>
     <li><a href="https://github.com/xkatherinemoore/TTS-Data-Science/blob/main/control-flow.ipynb">control-flow.ipynb</a>: Control flow with if/else and loops; also includes regex and data validation</li>
     <li><a href="https://github.com/xkatherinemoore/TTS-Data-Science/blob/main/beautiful-soup.ipynb">beautiful-soup.ipynb</a>: Web scraping exercise using Beautiful Soup</li>
-    <li><a href="https://github.com/xkatherinemoore/TTS-Data-Science/blob/main/Flights%20Challenge.ipynb">Flights Challenge.ipynb</a>: Microsoft Learning Exercise for data analysis using Pandas </li>
+    <li><a href="https://github.com/xkatherinemoore/TTS-Data-Science/blob/main/Flights%20Challenge.ipynb">Flights Challenge.ipynb</a>: Microsoft Learn Exercise - <a href="https://learn.microsoft.com/en-us/training/modules/explore-analyze-data-with-python/">Explore and Analyze Data with Python</a>; uses pandas </li>
     <li><a href="#"></a></li>
 </ul>
