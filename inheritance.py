@@ -11,7 +11,7 @@ class Student(Person):
         self.id = id
         self.testScores = testScores
     
-    def calculateGrade() -> chr:
+    def calculateGrade(self) -> chr:
         sum = 0.00
         for grade in self.testScores:
             sum += grade
@@ -28,5 +28,7 @@ class Student(Person):
             return "D"
         else:
             return "F"
+        
 
 kmoore = Student("Katherine", "Moore", "12345", [80, 95, 76, 88])
+print(kmoore.calculateGrade())
