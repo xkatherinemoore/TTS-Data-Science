@@ -1,4 +1,4 @@
-.ipynb_checkpoints/
+.ipynb*
 data/amazon_book_reviews/
 .api-keys
 *api*
